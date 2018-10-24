@@ -1,0 +1,9 @@
+{
+    "Template": {
+      "TemplateName": "ExpiredCardNotification",
+      "SubjectPart": "[notification] Please update your credit card",
+      "TextPart": "Dear customer,\nYour credit card ({{name}}, expiration date: {{month}}/{{year}}) is gonna stop working soon (in {{months_til_expiration}} months).\n For more info check (card id: {{card_id}})",
+      "HtmlPart": "Dear customer,</br>Your credit card ({{name}}, expiration date: {{month}}/{{year}}) is gonna stop working soon (in {{months_til_expiration}} months).</br> For more info check (card id: {{card_id}})"
+    }
+  }
+  
