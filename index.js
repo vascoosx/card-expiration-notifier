@@ -30,7 +30,7 @@ const selectUnnotifiedCards = (customer, cards) => {
 
 const makeEmailParamsPerCard = (customerEmail, card) => {
   const templateParams = {
-    id: card.id,
+    card_id: card.id,
     name: card.name,
     month: card.expiration_month,
     year: card.expiration_year,
